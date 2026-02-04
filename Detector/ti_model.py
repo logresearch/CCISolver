@@ -40,7 +40,7 @@ class Model(nn.Module):
         outputs = outputs.reshape(-1, 2, outputs.size(-1))
         outputs = torch.nn.functional.normalize(outputs, p=2, dim=-1)
         
-        # Ensure the output shape is compatible with classifier
+    
         outputs = outputs.view(-1, outputs.size(-1) * 2)
         logits = self.classifier(outputs)
         cos_sim = (outputs[:, 0] * outputs[:, 1]).sum(-1)/(outputs[:, 0].norm()*outputs[:, 1].norm())
