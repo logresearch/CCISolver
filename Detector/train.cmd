@@ -1,0 +1,12 @@
+python ti_run.py \
+--output_dir= \
+--train_data_file=train.json \
+--eval_data_file=valid.json \
+--test_data_file=test.json \
+--pred_data_file=test.json \
+--num_train_epochs=10 \
+--train_batch_size=16 \
+--eval_batch_size=16 \
+--do_train \
+--do_eval \
+--do_test

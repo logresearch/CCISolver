@@ -1,0 +1,13 @@
+{
+  "<DELETE>": 51420,
+  "<DELETE_END>": 51421,
+  "<INSERT>": 51425,
+  "<INSERT_END>": 51426,
+  "<KEEP>": 51419,
+  "<KEEP_END>": 51418,
+  "<REPLACE_END>": 51423,
+  "<REPLACE_NEW>": 51422,
+  "<REPLACE_OLD>": 51424,
+  "@param": 51417,
+  "@return": 51416
+}
